@@ -8,7 +8,7 @@ import { useContext } from 'react';
 import { PersonalDetailsContext } from 'shared/utils/contexts';
 import { PersonalDetails } from 'shared/utils/types';
 import { characters } from 'shared/components/constants';
-import Canvas from './Canvas.tsx';
+import Canvas from './Canvas';
 
 export default function Landing(): JSX.Element {
   const config = {
