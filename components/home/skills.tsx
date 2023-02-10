@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { HeaderSmall } from '@shared-components';
 import SkillsIcons from './skills-icon';
 
@@ -21,10 +22,16 @@ export default function Skills(): JSX.Element {
           <div className="col-span-12 md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
             {/* Hero Header */}
             <div className="items-center w-3/4 relative">
-              <HeaderSmall text="What does he do?" />
-              <h1 className="sm:w-4/5 mb-3 mt-1 text-7xl sm:text-5xl md:text-7xl lg:text-5xl font-normal tracking-wide text-white leading-normal lg:leading-7">
-                He creates elegant, logical web and mobile app solutions. In his hobby time, he
-                designs.
+              <HeaderSmall text="What does we do?" />
+              <h1 className="sm:w-4/5 mb-3 mt-1 text-7xl sm:text-5xl md:text-7xl lg:text-10xl font-normal tracking-wide text-white leading-normal lg:leading-7">
+                We offer a range of digital solutions including application development, web
+                development, financial solutions, SEO, graphic design and digital marketing. Our
+                team of experts is dedicated to creating customized and innovative solutions that
+                meet the specific needs of our clients. Whether you need a custom-built application
+                to streamline your business processes, a visually appealing website to attract and
+                engage visitors, or a comprehensive digital marketing strategy to boost your online
+                presence, we've got you covered. Our goal is to help you achieve success in the
+                digital world by providing you with the tools and support you need to succeed.
               </h1>
               <h1 className="mb-3 mt-6 text-4xl sm:text-2xl md:text-3xl lg:text-2xl xl:text-1xl font-extrabold text-white leading-none ">
                 Think. <span className="text-pink">Code.</span> Debug.

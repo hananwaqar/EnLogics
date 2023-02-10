@@ -126,7 +126,7 @@ export default function Landing(): JSX.Element {
             <div className="sm:col-span-1 xl:col-span-1">
               <Button
                 type="outlined"
-                text="Download Resume"
+                text="Hire Us"
                 // eslint-disable-next-line no-return-assign
                 onClickHandler={() => window.open(personalDetails.resume, '_blank')}
               />

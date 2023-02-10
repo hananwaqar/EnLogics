@@ -23,7 +23,7 @@ export default function Work(): JSX.Element {
                 alt="Box Vector"
                 className="block absolute right-0 top-0 w-20 md:w-16 lg:w-52 opacity-60"
               />
-              <HeaderSmall text="What does he do?" />
+              <HeaderSmall text="What does we do?" />
               <h1 className="mb-3 mt-1 text-7xl sm:text-5xl md:text-7xl lg:text-4xl font-normal tracking-wide text-white leading-normal lg:leading-7">
                 Currently enhancing travelling at{' '}
                 <span className="text-pink font-bold">{personalDetails?.work?.company}</span> as a

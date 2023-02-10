@@ -24,7 +24,7 @@ export default function Landing(): JSX.Element {
           <div className="col-span-12 md:col-span-7 lg:col-span-6 flex flex-col justify-center items-center">
             {/* Hero Header */}
             <div className="items-center w-3/4 relative">
-              <HeaderSmall text="Where he has worked?" />
+              <HeaderSmall text="Where we have worked?" />
               <h1 className="sm:w-4/5 mb-3 mt-1 text-7xl sm:text-5xl md:text-7xl lg:text-5xl font-normal tracking-wide text-white leading-normal lg:leading-7">
                 Worked with several organizations ranging from campus clubs to startups.
               </h1>

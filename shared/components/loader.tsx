@@ -1,3 +1,4 @@
+/* eslint-disable */
 export default function Loader(): JSX.Element {
   return (
     <>
@@ -7,6 +8,7 @@ export default function Loader(): JSX.Element {
           className="animate-bounce transition-all"
           src="/images/logo-light.svg"
           alt="En-Logics"
+          style={{ width: '35%', aspectRatio: 3 / 3 }}
         />
         <hr className="transition-all animate-changewidth duration-1000 absolute right-0 top-1/2" />
       </div>
