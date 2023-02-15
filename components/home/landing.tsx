@@ -70,7 +70,7 @@ export default function Landing(): JSX.Element {
               </div>
             </div>
           </div> */}
-        <div className="relative h-screen flex justify-center items-center flex-col gap-5">
+        <div className="relative  h-screen flex justify-center items-center flex-col gap-5">
           <Canvas />
 
           {/* <svg
@@ -113,25 +113,32 @@ export default function Landing(): JSX.Element {
         {`I'm a frontend developer`}
       </motion.p> */}
           {/* <HeaderSmall text="Who we are?" /> */}
-          <h1 className="text-3xl sm:text-2xl xl:text-1xl font-extrabold text-white leading-none mb-3">
-            {'En-Logics'}
-          </h1>
-          <h5 className="hidden lg:inline text-7xl font-light text-violet text-justify">
-            {'Empowering your business with software excellence'}
-          </h5>
-          <div className="grid sm:grid-cols-2 md:grid-cols-none xl:grid-cols-2 gap-4 mt-6">
-            <div className="sm:col-span-1 xl:col-span-1">
-              <Button type="solid" text="Know More" onClickHandler={() => router.push('#skills')} />
-            </div>
-            <div className="sm:col-span-1 xl:col-span-1">
-              <Button
-                type="outlined"
-                text="Hire Us"
-                // eslint-disable-next-line no-return-assign
-                onClickHandler={() => window.open(personalDetails.resume, '_blank')}
-              />
+          <div className="h-1/2  items-center center justify-center">
+            <h1 className=" text-center text-3xl sm:text-2xl xl:text-1xl font-extrabold text-white leading-none mb-8">
+              {'En-Logics'}
+            </h1>
+            <h5 className=" hidden lg:block text-7xl  text-center font-light text-violet mb-8 ">
+              {'Empowering your business with software excellence'}
+            </h5>
+            <div className="grid sm:grid-cols-2 md:grid-cols-none xl:grid-cols-2 gap-4 mt-6">
+              <div className="sm:col-span-1 xl:col-span-1">
+                <Button
+                  type="solid"
+                  text="Know More"
+                  onClickHandler={() => router.push('#skills')}
+                />
+              </div>
+              <div className="sm:col-span-1 xl:col-span-1">
+                <Button
+                  type="outlined"
+                  text="Hire Us"
+                  // eslint-disable-next-line no-return-assign
+                  onClickHandler={() => window.open(personalDetails.resume, '_blank')}
+                />
+              </div>
             </div>
           </div>
+
           {/* <motion.a
         data-scroll
         data-scroll-speed="2"
