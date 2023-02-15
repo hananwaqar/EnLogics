@@ -1,11 +1,10 @@
 {
-  "name": "harsh-web-3",
+  "name": "en-logics",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Harsh Goel",
-    "email": "harshgoel05@gmail.com",
-    "url": "https://harshgoel.me"
+    "name": "Hanan Waqar",
+    "email": "officialenlogics@gmail.com"
   },
   "scripts": {
     "dev": "next dev",

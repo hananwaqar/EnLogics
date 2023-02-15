@@ -21,27 +21,6 @@ function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
     when: 'afterChildren'
   };
   const disableConsole = () => {
-    console.log(
-      '%c This place is where I was supposed to post job openings, but currently I need one :P , :)',
-      'background: #212121; color: #f69510; padding: 6px; '
-    );
-    console.log(`
-    _   _                _        ____            _ 
-                                                                                    
-    _   _                        _     
-    | | | |   __ _   _ __   ___  | |__  
-    | |_| |  / _\` | | '__| / __| | '_ \\ 
-    |  _  | | (_| | | |    \\__ \\ | | | |
-    |_| |_|  \\__,_| |_|    |___/ |_| |_|
-    
-    _   ___         _       ____     ___     ___   _ 
-                                                                                             
-                                                             `);
-
-    console.log(
-      "%c Let's talk, head to contact page and schedule a call with me!",
-      'background: #212121; color: #f69510; padding: 6px;'
-    );
     console.log = () => {};
     console.error = () => {};
   };
@@ -49,51 +28,51 @@ function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
   return (
     <div>
       <Head>
-        <title>Harsh Goel | Software Developer</title>
-        <meta name="title" content="Harsh Goel | Software Developer" />
+        <title>En-Logics</title>
+        <meta name="title" content="En-Logics" />
         <meta
           name="description"
-          content="Harsh Goel is a Software Developer from Dhanbad, Jharkhand. Harsh is pursuing his undergraduate from SRM University, Chennai."
+          content="A software company delivering custom solutions for digital transformation and growth."
         />
         <meta
           name="keywords"
-          content="Harsh Goel, Software Developer , Web Development Freelancer, SRM University, Web Developer"
+          content="En-Logics, Software Developer , Web Development Freelancer, App Developer, Web Developer, SEO, Next Js, React Native, React JS, Ruby on Rails"
         />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="10 days" />
-        <meta name="author" content="Harsh Goel" />
-        <meta name="copyright" content="All rights reserved,2021. Harsh Goel" />
+        <meta name="author" content="En-Logics" />
+        <meta name="copyright" content="All rights reserved,2023. En-Logics" />
         <meta httpEquiv="content-language" content="en" />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://harshgoel.me/" />
-        <meta property="og:title" content="Harsh Goel | Software Developer" />
+        <meta property="og:title" content="En-Logics" />
         <meta
           property="og:description"
-          content="Harsh Goel is a Software Developer from Dhanbad, Jharkhand. Harsh is pursuing his undergraduate from SRM University, Chennai."
+          content="A software company delivering custom solutions for digital transformation and growth."
         />
-        <meta
+        {/* <meta
           property="og:image"
           content="https://billboard.srmkzilla.net/api/blog?title=Harsh%20Goel&subtitle=Software%20Developer&fileType=jpeg&theme=dark&fontSize=180px"
-        />
+        /> */}
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://harshgoel.me/" />
-        <meta property="twitter:site" content="@harshgoel05" />
-        <meta property="twitter:title" content="Harsh Goel | Software Developer" />
+        {/* <meta property="twitter:url" content="https://harshgoel.me/" />
+        <meta property="twitter:site" content="@harshgoel05" /> */}
+        <meta property="twitter:title" content="EnLogics | Software Company" />
         <meta
           property="twitter:description"
-          content="Harsh Goel is a Software Developer from Dhanbad, Jharkhand. Harsh is pursuing his undergraduate from SRM University, Chennai."
+          content="A software company delivering custom solutions for digital transformation and growth."
         />
         {/* Use Billboard to get an OG Image */}
-        <meta
+        {/* <meta
           property="twitter:image"
           content="https://billboard.srmkzilla.net/api/blog?title=Harsh%20Goel&subtitle=Software%20Developer&fileType=jpeg&theme=dark&fontSize=180px"
-        />
+        /> */}
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />

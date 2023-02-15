@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="HG_LOGO" src="docs/logo-dark.svg" height="64" />
+  <img alt="En-Logics" src="docs/logo-dark.svg" height="64" />
 </div>
 
 <br>
@@ -7,7 +7,7 @@
 Another Porfolio
 </p>
 <p align="center">
-crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://harshgoel.me">Harsh Goel</a>.
+crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://harshgoel.me">En-Logics</a>.
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/version-1.0.0-yellowgreen" alt="version 1.0.0"/>
@@ -17,7 +17,7 @@ crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://h
     <img src="https://img.shields.io/badge/author-Harsh%20Goel-orange" alt="author Harsh Goel"/>
 </p>
 
-> Harsh's Developer Portfolio built on NextJS!
+> En-Logics Portfolio built on NextJS!
 
 ## Built With
 
