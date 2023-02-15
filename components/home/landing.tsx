@@ -116,7 +116,7 @@ export default function Landing(): JSX.Element {
           <h1 className="text-3xl sm:text-2xl xl:text-1xl font-extrabold text-white leading-none mb-3">
             {'En-Logics'}
           </h1>
-          <h5 className="text-7xl font-light text-violet text-justify">
+          <h5 className="hidden lg:inline text-7xl font-light text-violet text-justify">
             {'Empowering your business with software excellence'}
           </h5>
           <div className="grid sm:grid-cols-2 md:grid-cols-none xl:grid-cols-2 gap-4 mt-6">
