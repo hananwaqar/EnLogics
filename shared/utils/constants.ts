@@ -4,6 +4,10 @@ const navlinks = [
     href: '/'
   },
   {
+    title: 'Services',
+    href: '/service'
+  },
+  {
     title: 'Explore',
     href: '/#skills'
   },

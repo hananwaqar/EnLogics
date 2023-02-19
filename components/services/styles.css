@@ -1,0 +1,8 @@
+.new .container {
+  width: 100%;
+  min-width: 375px;
+  max-width: 1288px;
+  padding: 0 24px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
