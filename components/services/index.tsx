@@ -1,6 +1,6 @@
 import { ProjectCard } from '@shared-components';
 import { useContext, useEffect, useState } from 'react';
-import TextCards from 'shared/components/text-cards';
+import TextCards from 'shared/components/text-cards-services';
 import { ProjectDetailsContext } from 'shared/utils/contexts';
 import { Project } from 'shared/utils/types';
 
@@ -37,8 +37,8 @@ const ProjectsPage = (): JSX.Element => {
                 {/* Gender specific????? */}
               </h1>
             </div>
-            <div className="grid md:grid-cols-4 gap-4 place-items-center md:mt-10 mt-5">
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+            <div className="grid md:grid-cols-4 gap-8 place-items-center md:mt-10 mt-5">
+              <div className="w-65  h-auto min-h-100 shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="SEO"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
@@ -47,53 +47,53 @@ const ProjectsPage = (): JSX.Element => {
                 {/* <h3 className="get__title h3">Backend Development</h3><span className="get__text">In technologies
                 such as Java, .NET and PHP</span> */}
               </div>
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+              <div className="w-65  h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Website Development"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
-                  color="pink"
+                  color="violet"
                 />
                 {/* <h3 className="get__title h3">Backend Development</h3><span className="get__text">In technologies
                 such as Java, .NET and PHP</span> */}
               </div>
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+              <div className="w-65 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Graphic Designing"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
                   color="violet"
                 />
               </div>
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+              <div className="w-65 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Mobile App Development"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
-                  color="pink"
+                  color="violet"
                 />
               </div>
             </div>
-            <div className="grid md:grid-cols-4 gap-4 place-items-center md:mt-10 mt-5">
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+            <div className="grid md:grid-cols-4 gap-8 place-items-center md:mt-10 mt-5">
+              <div className="w-65 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="DevOps"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
-                  color="pink"
+                  color="violet"
                 />
               </div>
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+              <div className="w-65 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Maintenance & Support"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
                   color="violet"
                 />
               </div>
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+              <div className="w-65 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Digital Marketing"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
-                  color="pink"
+                  color="violet"
                 />
               </div>
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+              <div className="w-65 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Ui/Ux"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
@@ -101,8 +101,8 @@ const ProjectsPage = (): JSX.Element => {
                 />
               </div>
             </div>
-            <div className="grid md:grid-cols-4 gap-4 place-items-center md:mt-10 mt-5">
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+            <div className="grid md:grid-cols-4 gap-8 place-items-center md:mt-10 mt-5">
+              <div className="w-65 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Backend Development"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
@@ -111,27 +111,27 @@ const ProjectsPage = (): JSX.Element => {
                 {/* <h3 className="get__title h3">Backend Development</h3><span className="get__text">In technologies
                 such as Java, .NET and PHP</span> */}
               </div>
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+              <div className="w-65 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Frontend Development"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
-                  color="pink"
+                  color="violet"
                 />
                 {/* <h3 className="get__title h3">Backend Development</h3><span className="get__text">In technologies
                 such as Java, .NET and PHP</span> */}
               </div>
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+              <div className="w-65 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Project Management"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
                   color="violet"
                 />
               </div>
-              <div className="w-64 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
+              <div className="w-65 h-auto shadow-light-xl hover:shadow-light-3xl transform transition-all duration-300 hover:scale-110">
                 <TextCards
                   heading="Development of custom ideas"
                   text=" We adds certain special hidden recipes and making his websites look enticing."
-                  color="pink"
+                  color="violet"
                 />
               </div>
             </div>
