@@ -66,9 +66,10 @@ const Navbar = (): JSX.Element => {
               <img
                 src="/images/newlogo.png"
                 alt="logo"
+                style={{ marginLeft: -20 }}
                 className={`${
                   isScreenScrolled ? 'w-1/5 md:w-5/12' : 'w-40 md:w-4/5'
-                } pl-30 my-2 transition-all transform hover:scale-75 cursor-pointer`}
+                }  my-2 transition-all transform hover:scale-75 cursor-pointer`}
               />
             </Link>
           </div>
