@@ -21,7 +21,7 @@ crafted with <span style="color: #8b0000;">&hearts;</span> by <a href="https://h
 
 ## Built With
 
-This website is built with <span style="color: #8b0000;">&hearts;</span> on [NextJS](https://nextjs.org/), statically typed in [TypeScript](https://www.typescriptlang.org/) following the best practises in the market.
+This website built with <span style="color: #8b0000;">&hearts;</span> on [NextJS](https://nextjs.org/), statically typed in [TypeScript](https://www.typescriptlang.org/) following the best practises in the market.
 
 ## Installation 🔧
 
