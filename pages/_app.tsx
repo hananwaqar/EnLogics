@@ -4,7 +4,9 @@ import { AppProps } from 'next/app';
 import '../styles/global.css';
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
-
+import { AnimatePresence, motion } from 'framer-motion';
+import Loader from '../shared/components/loader';
+import CookieAlert from '../shared/components/cookie-alert';
 
 function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
   const [loading, setLoading] = useState(true);
@@ -116,7 +118,25 @@ function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
           }}
         />
       </Head>
-   
+      {loading ? (
+        <Loader />
+      ) : (
+        <AnimatePresence>
+          <div className="page-transition-wrapper overflow-x-hidden min-h-screen">
+            <motion.div
+              transition={spring}
+              key={router.pathname}
+              initial={{ x: 0, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: -300, opacity: 0 }}
+              id="page-transition-container">
+              {/* <CustomCursor /> */}
+        
+            </motion.div>
+          </div>
+          <CookieAlert />
+        </AnimatePresence>
+      )}
       {disableConsole()}
     </div>
   );
